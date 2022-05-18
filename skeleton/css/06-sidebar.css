@@ -1,1 +1,38 @@
 /* PHASE 0: Sidebar */
+.profile-picture {
+    margin-top: -50px;
+    position: relative;
+    z-index: 2;
+}
+
+.header-notifications > li {
+    border-top: 3px dashed rgb(190, 33, 33);
+}
+
+.header-notifications > li:last-child {
+    border-bottom: 3px dashed rgb(190, 33, 33);
+}
+
+
+.profile-picture {
+    display: inline-block;
+}
+
+.online {
+    position: relative;
+    z-index: 3;
+    bottom: 40px;
+    right: -162px;
+    max-width: 20%;
+}
+
+#friends {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#friends > div {
+    width: 50px;
+}
